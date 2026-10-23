@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,14 +12,20 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/1357e61879.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </head>
+
   <body>
     <section id="landing">
       <nav>
         <div class="row nav__row">
           <div class="nav__logo">
-            <img class="nav__logo--img"
+            <img
+              class="nav__logo--img"
               src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
               alt=""
             />
@@ -30,8 +36,8 @@
             <a href="#" class="nav__link">Blog</a>
             <a href="#" class="nav__link">Pricing</a>
             <a href="#" class="nav__link">Contact Us</a>
-            <a href="#" class="nav__link">Login</a>
-            <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+            <a class="nav__link">Login</a>
+            <a class="nav__link nav__link--primary">Sign Up</a>
           </div>
           <button class="btn__menu" onclick="openMenu()">
             <svg
@@ -83,7 +89,34 @@
       <header>
         <div class="container">
           <div class="row">
-            <!--  -->Enter Header / About Us Section<!--  -->
+            <div class="header__description">
+              <h1>
+                Beatifull React template <span class="purple">For you</span>
+              </h1>
+              <p class="header__description--para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="header__email">
+                <input
+                  type="text"
+                  class="header__email--input"
+                  placeholder="Your E-mail Address"
+                />
+                <button class="header__email--btn">Get Started</button>
+              </div>
+              <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+              <img
+                src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                class="header__customers"
+              />
+            </div>
+            <figure class="header__img--wrapper">
+              <img
+                src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                class="header__img"
+              />
+            </figure>
           </div>
         </div>
       </header>
@@ -91,46 +124,128 @@
     <main>
       <section id="features">
         <div class="container">
-          <div class="row__narrow">
-            <!--  -->Enter Features Section<!--  -->
+          <div class="row row__narrow">
+            <h3><span class="purple">FEARTURES</span></h3>
+            <h1>We have Amazing<span class="purple">Service.</span></h1>
+            <p class="feature__description--para">
+              Lorem ipsum dolor sit amet consectetur fugiat quia neque!Lorem
+              ipsum dolor. Lorem ipsum dolor sit amet consectetur fugiat quia .
+            </p>
           </div>
-        </div>
-      </section>
-      <section id="quality">
-        <div class="container">
-          <div class="row"><!--  -->Enter Quality Work Section<!--  --></div>
-        </div>
-      </section>
-      <section id="steps">
-        <div class="container">
-          <div class="row"><!--  -->Enter Steps Section<!--  --></div>
-        </div>
-      </section>
-      <section id="values">
-        <div class="container">
-          <div class="row"><!--  -->Enter Values Section<!--  --></div>
-        </div>
-      </section>
-      <section id="pricing">
-        <div class="container">
-          <div class="row"><!--  -->Enter Pricing Section<!--  --></div>
-        </div>
-      </section>
-      <section id="testimonials">
-        <div class="container">
-          <div class="row"><!--  -->Enter Testimonials Section<!--  --></div>
-        </div>
-      </section>
-      <section id="start">
-        <div class="container">
-          <div class="row">
-            <!--  -->Enter "Start"/Call to action section<!--  -->
+          <div class="service">
+            <div class="service__wrapper">
+              <i class="fa-solid fa-shield-halved icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">Secure</h2>
+                <p class="service__description--para">
+                  We strictly only deal with vendors that provide top notch
+                  security.
+                </p>
+              </div>
+            </div>
+            <div class="service__wrapper">
+              <i class="fa-solid fa-square-phone-flip icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">24/7 Suport</h2>
+                <p class="service__description--para">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                </p>
+              </div>
+            </div>
+            <div class="service__wrapper">
+              <i class="fa-solid fa-sliders icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">Customizable</h2>
+                <p class="service__description--para">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                </p>
+              </div>
+            </div>
           </div>
+          <div class="service">
+            <div class="service__wrapper">
+              <i class="fa-solid fa-x icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">Reliable</h2>
+                <p class="service__description--para">
+                  We strictly only deal with vendors that provide top notch
+                  security.
+                </p>
+              </div>
+            </div>
+            <div class="service__wrapper">
+              <i class="fa-solid fa-square-full icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">Fast</h2>
+                <p class="service__description--para">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                </p>
+              </div>
+            </div>
+            <div class="service__wrapper">
+              <i class="fa-solid fa-eraser icon"></i>
+              <div class="description__h1--wrapper">
+                <h2 class="service__title">Easy</h2>
+                <p class="service__description--para">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                </p>
+              </div>
+            </div>
+          </div>
+          <section>
+            <section id="quality">
+              <div class="container">
+                <div class="row">
+                  <h3><span class="purple">Quality work</span></h3>
+                  <h1>
+                    Designed & Developed by<span class="purple">Professnals.</span>
+                  </h1>
+                  <P quality__para>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iste mollitia sed pariatur error accusantium laborum aperiam, aut eveniet iusto molestias, officiis labore maxime sint, quidem laudantium at placeat autem!</P>
+                </div>
+              </div>
+            </section>
+            <section id="step">
+              <div class="container">
+                <div class="row">
+                 <h3><span class="purple">STEPS</span></h3>
+                  <h1>
+                    Designed & Developed by<span class="purple">Get Started.</span>
+                  </h1>
+                  <P quality__para>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iste mollitia sed pariatur error accusantium laborum aperiam, aut eveniet iusto molestias, officiis labore maxime sint, quidem laudantium at placeat autem!</P>
+                </div>
+                </div>
+              </div>
+            </section>
+            <section id="values">
+              <div class="container">
+                <div class="row"><!--  -->Enter Values Section<!--  --></div>
+              </div>
+            </section>
+            <section id="pricing">
+              <div class="container">
+                <div class="row"><!--  -->Enter Pricing Section<!--  --></div>
+              </div>
+            </section>
+            <section id="testimonials">
+              <div class="container">
+                <div class="row">
+                  <!--  -->Enter Testimonials Section<!--  -->
+                </div>
+              </div>
+            </section>
+            <section id="start">
+              <div class="container">
+                <div class="row">
+                  <!--  -->Enter "Start"/Call to action section<!--  -->
+                </div>
+              </div>
+            </section>
+            <footer>
+              <div class="row footer__row"><!--  -->Enter Footer<!--  --></div>
+            </footer>
+          </section>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="row footer__row"><!--  -->Enter Footer<!--  --></div>
-    </footer>
   </body>
 </html>
